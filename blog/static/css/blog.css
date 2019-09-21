@@ -19,10 +19,6 @@ h1 a, h2 a {
     text-decoration: none;
 }
 
-.content {
-    margin-left: 40px;
-}
-
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
@@ -62,7 +58,9 @@ body{
     padding: 0 !important;
 }
 .page-header{
+    text-align: center;
     background: #6F58C9 !important;
+    border-bottom: 8px solid #564598;
     
 }
 h1 a, h2 a{
@@ -76,4 +74,27 @@ h1 a, h2 a{
 }
 .row{
     margin: auto !important;
+}
+
+/* Form */
+
+form{
+    background: #6F58C9;
+    padding: 20px;
+    font-family: 'Josefin Sans';
+}
+
+button, input, textarea{
+    border-radius: 0px !important;
+    padding: 13px 5px;
+    border: none !important;
+}
+
+button{
+    width: 100%;
+    text-align: center !important;
+    background: #564598 !important;
+    color: white !important;
+    padding: 15px !important;
+    box-shadow: none !important;
 }
