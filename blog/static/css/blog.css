@@ -62,14 +62,13 @@ body{
     padding: 0 !important;
 }
 .page-header{
-    background: #6F58C9;
-    vertical-align: middle;
+    background: #6F58C9 !important;
 }
 h1 a, h2 a{
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans' !important;
 }
 .col-md-8{
-    display: flex
+    display: flex;
 }
 .col-md-8 > div{
     margin: 20px;
