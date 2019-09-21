@@ -53,3 +53,27 @@ h1, h2, h3, h4 {
 .post h2 a, .post h2 a:visited {
     color: #000000;
 }
+
+
+/* Custom CSS */
+
+
+body{
+    padding: 0 !important;
+}
+.page-header{
+    background: #6F58C9;
+    vertical-align: middle;
+}
+h1 a, h2 a{
+    font-family: Josefin Sans;
+}
+.col-md-8{
+    display: flex
+}
+.col-md-8 > div{
+    margin: 20px;
+}
+.row{
+    margin: auto !important;
+}
